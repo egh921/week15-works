@@ -1,0 +1,378 @@
+.bg1 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url('../img/bg1.png');
+    background-size: cover;
+    background-position: 0,0%;
+}
+
+.bg2 {
+    width: 100%;
+    height: 52%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-size: cover;
+    background-position: 0,0%;
+    background-image: url('../img/bg2.png');
+}
+
+.music1 {
+    width: 5.2%;
+    height: 5.2%;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+
+.music2 {
+    width: 3.5%;
+    height: 3.5%;
+    position: absolute;
+    top: 40%;
+    right: 18%;
+}
+
+.music3 {
+    width: 5%;
+    height: 5%;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+}
+
+.music3-2 {
+    width: 5%;
+    height: 5%;
+    position: absolute;
+    top: 20%;
+    right: 13%;
+}
+
+.music4 {
+    width: 5.8%;
+    height: 5.8%;
+    position: absolute;
+    top: 60%;
+    right: 18%;
+}
+
+.music4-2 {
+    width: 3.5%;
+    height: 3.5%;
+    position: absolute;
+    top: 60%;
+    left: 18%;
+}
+
+.music5 {
+    width: 5%;
+    height: 5%;
+    position: absolute;
+    top: 68%;
+    left: 5%;
+}
+
+.music5-2 {
+    width: 4%;
+    height: 4%;
+    position: absolute;
+    top: 70%;
+    right: 4%;
+}
+
+.music6 {
+    width: 5%;
+    height: 5%;
+    position: absolute;
+    top: 20%;
+    left: 6%;
+}
+
+.music6-2 {
+    width: 3%;
+    height: 3%;
+    position: absolute;
+    top: 20%;
+    right: 2%;
+}
+
+.title {
+    width: 33%;
+    height: 3%;
+    position: absolute;
+    top: 7%;
+    left: 33.5%;
+}
+
+.text {
+    width: 75%;
+    height: 3%;
+    position: absolute;
+    bottom: 10%;
+    left: 12%;
+}
+
+.bar1 {
+    width: 33%;
+    height: 3%;
+    position: absolute;
+    top: 3.5%;
+    left: 0%;
+
+    animation-name: bar1;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
+
+
+.bar2 {
+    width: 33%;
+    height: 3%;
+    position: absolute;
+    top: 3.5%;
+    right: 0%;
+
+    animation-name: bar2;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
+
+
+
+
+.tape3_1{
+    width: 10%;
+    height: 15%;
+    position: absolute;
+    top: 59%;
+    left: 39%;
+
+}
+
+.tape3_2{
+    width: 10%;
+    height: 15%;
+    position: absolute;
+    top: 29%;
+    right: 36%;
+
+}
+
+.tape2 { 
+    width: 11%;
+    height: 11%;
+    position: absolute;
+    left: 24.5%;
+
+}
+
+.tape2_2 { 
+    width: 11%;
+    height: 11%;
+    position: absolute;
+    right: 24.5%;
+
+}
+
+.owl-stage-outer {
+    height: 70%;
+    position: absolute;
+}
+
+.tape1_1 {
+    width: 50%;
+    height: 45%;
+    position: absolute;
+    top: 20.5%;
+    left: 25%;
+    z-index: 500;
+}
+
+.tape1_2 {
+    width: 50%;
+    height: 45%;
+    position: absolute;
+    top: 20.5%;
+    left: 25.5%;
+}
+
+.tape1_3 {
+    width: 50%;
+    height: 45%;
+    position: absolute;
+    top: 20.5%;
+    left: 25.5%;
+}
+
+.tape1_4 {
+    width: 50%;
+    height: 45%;
+    position: absolute;
+    top: 20.5%;
+    left: 25.5%;
+}
+
+.tape1_5 {
+    width: 50%;
+    height: 45%;
+    position: absolute;
+    top: 20.5%;
+    left: 25.5%;
+}
+
+.dot1 {
+    width: 2%;
+    height: 15%;
+    position: absolute;
+    right: 11%;
+}
+
+.dot2 {
+    width: 2%;
+    height: 15%;
+    position: absolute;
+    top: 34%;
+    right: 11%;
+}
+
+.dot3 {
+    width: 2%;
+    height: 15%;
+    position: absolute;
+    top: 34%;
+    right: 11%;
+}
+
+.dot4 {
+    width: 2%;
+    height: 15%;
+    position: absolute;
+    top: 34%;
+    right: 11%;
+}
+
+.dot5 {
+    width: 2%;
+    height: 15%;
+    position: absolute;
+    top: 34%;
+    right: 11%;
+}
+
+.owl-prev {
+    width: 4.5%;
+    height: 4.5%;
+    position: absolute;
+    top: 47.9%;
+    left: 1%;
+}
+
+.owl-next {
+    width: 4.5%;
+    height: 4.5%;
+    position: absolute;
+    top: 47.9%;
+    right: 1%;
+}
+
+.tapetape{}
+
+.tapetapetape{}
+
+
+.tapetape.move {
+    animation-name: rotate;
+    animation-iteration-count: infinite;
+    animation-duration: 200s;
+}
+
+.tapetapetape.move {
+    animation-name: moving;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+}
+
+.owl-dots{width: 0%; height: 0%;}
+
+@-webkit-keyframes rotate {
+    0% {transform: rotate(0deg);}
+    100% {transform:rotate(36000deg);}
+}
+
+@-webkit-keyframes moving {
+    0% {transform: translateX(-26px);}
+    50% {transform:translateX(3px);}
+    100% {transform: translateX(-26px);}
+}
+
+@-webkit-keyframes bar1 {
+    0% { margin-left: -33%;}
+    100% { margin-left: 0%;}
+}
+
+@-webkit-keyframes bar2 {
+    0% {
+        margin-right: -33%;
+    }
+
+    100% {
+        margin-right: 0%;
+    }
+}
+
+ .owl-theme .owl-nav {
+    margin-top: 10px;
+    -webkit-tap-highlight-color: transparent;
+    background: white;
+    width: 100px;
+    color: yellow;
+    font-size: 100px;
+}
+
+.owl-theme .owl-nav [class*='owl-'] {
+    top: 32%;
+    background: white;
+    color: white;
+      font-size: 50px;
+      margin: 5px;
+      padding: 4px 7px;
+      display: inline-block;
+      cursor: pointer;
+      border-radius: 3px;
+      outline: none;}
+
+.owl-theme .owl-nav .disabled {
+      opacity: 0.5;
+      cursor: default; }
+  
+    
+
+.owl-theme .owl-nav.disabled + .owl-dots {
+    margin-top: 10px;}
+  
+.owl-theme .owl-dots {
+    position: absolute; top: 20%; right: 13%;
+
+    text-align: center;
+    -webkit-tap-highlight-color: transparent; }
+
+    .owl-theme .owl-dots .owl-dot 
+    {
+      display: inline-block;
+      zoom: 1;
+      *display: inline; }
+
+.owl-theme .owl-dots .owl-dot span {
+        width: 40px;
+        height: 40px;
+        margin: 10px 7px;
+        background: rgba(255, 255, 0, 0.322);
+        display: block;
+        -webkit-backface-visibility: visible;
+        transition: opacity 200ms ease;
+        border-radius: 30px; }
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+        background: yellow; }
